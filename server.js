@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`✅ MicroService is running at ${PORT}`);
+  console.log(`MicroService is running at ${PORT}`);
 });
